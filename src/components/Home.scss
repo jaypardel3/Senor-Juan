@@ -1,0 +1,82 @@
+
+.home-img {
+    background: url(../img/home-mainsection.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: absolute;
+}
+
+.sticks {
+    left: 0;
+    height: 18vh;
+    position: absolute;
+    top: 35rem;
+    filter: drop-shadow(2rem .9rem 0.6rem black);
+}
+
+.board {
+    margin-left: 20rem;
+    margin-right: 110rem;
+    right: 0;
+    position: absolute;
+    top: 20rem;
+    height: 60vh;
+    filter: drop-shadow(2rem 1rem 0.6rem black);
+}
+
+.cloth {
+    left: 0;
+    top: 60rem;
+    height: 34vh;
+    position: absolute;
+    filter: drop-shadow(2rem .9rem 0.6rem black);
+}
+
+.leaves {
+    margin-left: auto;
+    margin-right: 163rem;
+    right: 0;
+    top: 55rem;
+    height: 14vh;
+    position: absolute;
+    filter: drop-shadow(2rem .9rem 0.6rem black);
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 10rem;
+    height: 30vh;
+    position: absolute;
+    filter: drop-shadow(2rem .9rem 0.6rem black);
+}
+
+.titletext {
+    position: relative;
+    z-index: 3;
+   
+}
+
+h1 {
+    margin-top: 45rem;
+    color: #ece9e9;
+    font-size: 6rem;
+
+}
+.reserve {
+    color: #ece9e9;
+    border-color: #ece9e9;
+    z-index: 306;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 32rem;
+    height: 8rem;
+}
+
