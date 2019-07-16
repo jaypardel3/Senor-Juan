@@ -1,0 +1,92 @@
+.menu-img2 {
+    background: url(../img/menupage.png);
+    background-size: cover;
+    background-position: center;
+    height: 144vh;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.beef3 {
+    left: 0;
+    width: 7.77%;
+    position: absolute;
+    top: 42rem;
+    filter: drop-shadow(1.8rem .9rem 0.6rem black);
+}
+
+
+.cloth2 {
+    left: 0;
+    top: 62rem;
+    width: 14.08%;
+    position: absolute;
+    filter: drop-shadow(2rem .9rem 0.6rem black);
+}
+
+.leaves2 {
+    margin-left: auto;
+    margin-right: 163rem;
+    right: 0;
+    top: 55rem;
+    width: 7.094%;
+    position: absolute;
+    filter: drop-shadow(2rem .9rem 0.6rem black);
+}
+
+.logomenu2 {
+    margin-left: auto;
+    margin-right: auto;
+    left: 10rem;
+    top: 10rem;
+    width: 14.1%;
+    position: absolute;
+    filter: drop-shadow(1.8rem 1rem 0.6rem black);
+}
+
+.titletext {
+    position: relative;
+    z-index: 3;
+   
+}
+
+.menupage {
+
+    &__header {
+        margin-top: 40rem;
+        color: #ece9e9;
+        font-size: 9rem;
+        filter: drop-shadow(0.3rem 1.4rem 0.6rem black);
+    }
+
+    &__header2 {
+        margin-top: 53rem;
+        color: #ece9e9;
+        font-size: 7rem;
+        filter: drop-shadow(0.3rem 1.4rem 0.6rem black);
+    }
+    
+
+}
+
+.menupage_divider {
+    height: 3px;
+    width: 40rem;
+    background-color: #dc1934;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+}
+
+.menuproper {
+    background: url(../img/menubg.png);
+    background-size: cover;
+    background-position: center;
+    height: 400vh;
+    position: relative;
+    z-index: -3;
+    top: 100rem;
+}

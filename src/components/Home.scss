@@ -1,19 +1,23 @@
 
 .home-img {
-    background: url(../img/home-mainsection.png);
+    background: url(../img/home-mainsection2.png);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 130vh;
     position: absolute;
+    // filter: drop-shadow(0rem 2rem 2rem rgba(0,0,0,0.5));
 }
 
-.sticks {
+
+
+.beef {
     left: 0;
-    height: 18vh;
+    width: 7.77%;
     position: absolute;
-    top: 35rem;
-    filter: drop-shadow(2rem .9rem 0.6rem black);
+    top: 42rem;
+    filter: drop-shadow(1.8rem .9rem 0.6rem black);
 }
+
 
 .board {
     margin-left: 20rem;
@@ -21,14 +25,14 @@
     right: 0;
     position: absolute;
     top: 20rem;
-    height: 60vh;
-    filter: drop-shadow(2rem 1rem 0.6rem black);
+    width: 35%;
+    filter: drop-shadow(1rem 1rem 0.6rem black);
 }
 
 .cloth {
     left: 0;
-    top: 60rem;
-    height: 34vh;
+    top: 62rem;
+    width: 14.08%;
     position: absolute;
     filter: drop-shadow(2rem .9rem 0.6rem black);
 }
@@ -38,7 +42,7 @@
     margin-right: 163rem;
     right: 0;
     top: 55rem;
-    height: 14vh;
+    width: 7.094%;
     position: absolute;
     filter: drop-shadow(2rem .9rem 0.6rem black);
 }
@@ -48,10 +52,10 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 10rem;
-    height: 30vh;
+    top: 15rem;
+    width: 22.1%;
     position: absolute;
-    filter: drop-shadow(2rem .9rem 0.6rem black);
+    filter: drop-shadow(1.8rem 1rem 0.6rem black);
 }
 
 .titletext {
@@ -61,11 +65,14 @@
 }
 
 h1 {
-    margin-top: 45rem;
+    margin-top: 50rem;
     color: #ece9e9;
-    font-size: 6rem;
+    font-size: 7rem;
+    filter: drop-shadow(0.3rem 1.4rem 0.6rem black);
 
 }
+
+
 .reserve {
     color: #ece9e9;
     border-color: #ece9e9;
@@ -80,3 +87,424 @@ h1 {
     height: 8rem;
 }
 
+.story-img {
+    background: linear-gradient(to bottom, rgba(0,0,0, 0.6) 0%, rgba(0, 0, 0, 0.5) 18%, rgba(0, 0, 0, 0.35) 35%, rgba(0, 0, 0, 0.15) 100%), url(../img/story2.png) fixed;
+    position: absolute;
+    top: 112rem;
+    height: 125vh;
+    background-size: cover;
+    z-index: -2;
+}
+
+.story {
+    width: 100vw;
+}
+
+.storyproper {
+    width: 40%;
+    position: absolute;
+    margin-top: 30rem;
+    right: 40rem;
+    text-align: right;
+}
+
+.storyheader {
+    font-size: 7rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.divider {
+    width: 12rem;
+    height: 4px;
+    background-color: #dc1934;
+    margin-top: 1rem;
+    position: absolute;
+    right: 0;
+}
+
+.storytext {
+    font-size: 2.3rem;
+    color: white;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+
+.place {
+    width: 89%;
+    z-index: 1;
+    margin-top: 45rem;
+    margin-left: 30rem;
+    filter: drop-shadow(-1.2rem 1.2rem 0.6rem rgba(0,0,0,0.5));
+}
+
+.redbox {
+    height: 60rem;
+    width: 90%;
+    background: rgba(0,0,0, 0.105);
+    position: absolute;
+    z-index: -1;
+    margin-top: 25rem;
+    margin-right: 28rem;
+    right: 5rem;
+    filter: drop-shadow(-1.2rem 1.2rem 0.6rem rgba(0,0,0,0.5));
+    opacity: 0.9;
+    text-align: end;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.tomato {
+    width: 300%;
+    z-index: 1000;
+    position: absolute;
+    margin-right: 8rem;
+    right: 4rem;
+    top: -5rem;
+    filter: drop-shadow(1rem 1rem 0.6rem black);
+}
+
+.menu-img {
+    background: url(../img/menu2.png);
+    position: absolute;
+    top: 203rem;
+    height: 235vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    // filter: drop-shadow(0rem -2rem 2rem rgba(0,0,0,0.5));
+    
+}
+
+.peas {
+    width: 7%;
+    position: absolute;
+    top: 40rem;
+    z-index: -2;
+    right: 20rem;
+    filter: drop-shadow(.3rem .3rem .3rem black);
+}
+
+.blackbox {
+    height: 55rem;
+    width: 100%;
+    background: rgba(40,40,40, .5);
+    position: absolute;
+    top: 52rem;
+    z-index: -1;
+    opacity: 0.9;
+    
+}
+
+.menu {
+
+    &__proper {
+        width: 40%;
+        position: absolute;
+        margin-top: 49rem;
+        text-align: left;
+        left: 44rem;
+    }
+
+    &__header {
+        font-size: 5rem;
+        color: white;
+        text-transform: uppercase;
+        line-height: 6rem;
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: 800;
+    }
+
+    &__divider {
+        width: 12rem;
+        height: 4px;
+        background-color: #dc1934;
+        margin-top: 3rem;
+        position: absolute;
+        left: 0;
+    }
+    
+    &__text {
+        font-size: 2rem;
+        color: white;
+        font-weight: 300;
+        margin-top: 7rem;
+    }
+
+    &__button {
+        color: #ece9e9;
+        border-color: #ece9e9;
+        z-index: 306;
+        display: block;
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+
+.beef2 {
+    width: 65%;
+    position: absolute;
+    top: 57rem;
+    right: -15rem;
+    z-index: -3;
+    filter: drop-shadow(-1rem -1rem 0.6rem black);
+}
+
+.squid {
+    width: 60%;
+    position: absolute;
+    top: 69rem;
+    right: -30rem;
+    z-index: -2;
+    filter: drop-shadow(-1.5rem -1.5rem 0.6rem rgba(0,0,0, .7));
+}
+
+.backbox {
+    height: 41rem;
+    width: 100%;
+    position: absolute;
+    top: 54rem;
+    right: -40rem;
+    z-index: -4;
+    background: #dc1934;
+    filter: drop-shadow(1.5rem 1.5rem 0.6rem rgba(0,0,0, .7));
+}
+.blackbox2 {
+    height: 55rem;
+    width: 100%;
+    background: rgba(0,0,0, .1);
+    position: absolute;
+    right: 1rem;
+    top: 125rem;
+    z-index: -1;
+    opacity: 0.9;
+    filter: drop-shadow(1rem 1rem 0.6rem black);
+    
+}
+
+.reserve {
+
+    &__proper {
+        width: 45%;
+        position: absolute;
+        margin-top: 122rem;
+        text-align: right;
+        right: 44rem;
+    }
+
+    &__header {
+        font-size: 4.6rem;
+        color: white;
+        text-transform: uppercase;
+        line-height: 6rem;
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: 800;
+    }
+
+    &__divider {
+        width: 12rem;
+        height: 4px;
+        background-color: #dc1934;
+        margin-top: 3rem;
+        position: absolute;
+        right: 0;
+    }
+    
+    &__text {
+        font-size: 2rem;
+        color: white;
+        font-weight: 300;
+        margin-top: 7rem;
+    }
+
+    &__button {
+        color: #ece9e9;
+        border-color: #ece9e9;
+        z-index: 306;
+        display: block;
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-weight: 300;
+        margin-left: 42.5rem;
+        margin-right: auto;
+    }
+}
+.peas2 {
+    width: 9.5%;
+    position: absolute;
+    top: 174rem;
+    z-index: -3;
+    left: 15rem;
+    filter: drop-shadow(.3rem .3rem .3rem black);
+}
+
+.knife {
+    width: 45%;
+    position: absolute;
+    top: 100rem;
+    z-index: -2;
+    filter: drop-shadow(.3rem .3rem .3rem black);
+    right: -30rem;
+}
+
+.orange1 {
+    width: 20%;
+    position: absolute;
+    top: 155rem;
+    right: -10rem;
+    filter: drop-shadow(1rem 1rem 0.6rem black);
+    z-index: -2;
+}
+
+.orange2 {
+    width: 8%;
+    position: absolute;
+    top: 157rem;
+    right: -18rem;
+    filter: drop-shadow(1rem 1rem 0.6rem black);
+    z-index: -3;
+}
+
+// .spoon {
+//     width: 35%;
+//     position: absolute;
+//     top: 172rem;
+//     z-index: -3;
+//     left: 18rem;
+//     filter: drop-shadow(.3rem .3rem .3rem black);
+// }
+
+.chili {
+    width: 330%;
+    z-index: 1000;
+    position: absolute;
+    margin-left: 8rem;
+    left: 4rem;
+    top: 215rem;
+    filter: drop-shadow(1rem 1rem 0.6rem black);
+}
+
+.testi-img {
+    background: linear-gradient(to bottom, rgba(0,0,0, 1) 0%, rgba(0, 0, 0, 0.65) 18%, rgba(0, 0, 0, 0.4) 35%, rgba(0, 0, 0, 0.3) 100%), url(../img/testi.png) fixed;
+    position: absolute;
+    top: 400rem;
+    height: 110vh;
+    background-size: cover;
+    z-index: -5;
+}
+
+.contact-img {
+    background: url(../img/contact2.png);
+    position: absolute;
+    top: 490rem;
+    height: 38vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    // filter: drop-shadow(0rem -2rem 0.6rem rgba(0,0,0,0.5));
+    
+}
+
+.contact {
+
+    &__box {
+        left: 15rem;
+    }
+
+    &__heading {
+        font-size: 2.5rem;
+        color: white;
+        margin-top: 3rem;
+        text-align: left;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 300;
+        margin-top: 1.5rem;
+        text-align: left;
+    }
+
+    &__designer {
+        font-size: 1.2rem;
+        color: lightgray;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        margin-top: 20rem;
+        
+       
+    }
+}
+
+.testimonials {
+    z-index: 10000;
+    position: absolute;
+    top: 50rem;
+    width: 100%;
+    left: 5rem;
+
+    &__first {
+        color: white;
+        width: 10rem;
+        font-weight: 300;
+        font-size: 3.5rem;
+        height: 15rem;
+        margin-top: 7rem;
+    }
+
+    &__reviewer {
+        color: lightgray;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+
+    .carousel-control-prev-icon {
+        position: absolute;
+        left: -9rem;
+        top: 8rem;
+    }
+
+    .carousel-control-next-icon {
+        position: absolute;
+        right: -9rem;
+        top: 8rem;
+    }
+
+    &__heading {
+        font-size: 6rem;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Julius Sans One', sans-serif;
+        text-align: left;
+        position: absolute;
+        left: -5rem;
+        top: -20rem;
+    }
+}
+
+.review {
+    &::before {
+        content: "\201C";
+        position: absolute;
+        top: -0.75rem;
+        left: -0.8rem;
+        line-height: 1;
+        font-size: 20rem;
+        color: white;
+        font-family: sans-serif;
+        z-index: 1;
+    }
+}
+
+.logowhite {
+    width: 50%;
+    position: absolute;
+    top: 4rem;
+    left: 15rem;
+}
