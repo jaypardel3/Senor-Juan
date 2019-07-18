@@ -1,8 +1,8 @@
 .menu-img2 {
-    background: url(../img/menupage.png);
+    background: url(../img/menubg.png);
     background-size: cover;
     background-position: center;
-    height: 144vh;
+    height: 400vh;
     position: absolute;
     top: 0;
 }
@@ -36,6 +36,16 @@
     filter: drop-shadow(2rem .9rem 0.6rem black);
 }
 
+.board3 {
+    margin-left: 20rem;
+    margin-right: 95rem;
+    right: 0;
+    position: absolute;
+    top: 40rem;
+    width: 35%;
+    filter: drop-shadow(1rem 1rem 0.6rem black);
+}
+
 .logomenu2 {
     margin-left: auto;
     margin-right: auto;
@@ -61,32 +71,23 @@
         filter: drop-shadow(0.3rem 1.4rem 0.6rem black);
     }
 
-    &__header2 {
-        margin-top: 53rem;
-        color: #ece9e9;
-        font-size: 7rem;
-        filter: drop-shadow(0.3rem 1.4rem 0.6rem black);
-    }
-    
-
 }
 
-.menupage_divider {
-    height: 3px;
-    width: 40rem;
-    background-color: #dc1934;
+.discover {
+    color: #ece9e9;
+    border-color: #ece9e9;
+    z-index: 306;
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 25rem;
+    height: 8rem;
 }
 
-.menuproper {
-    background: url(../img/menubg.png);
-    background-size: cover;
-    background-position: center;
-    height: 400vh;
-    position: relative;
-    z-index: -3;
-    top: 100rem;
+.list {
+    color: white;
+    font-size: 5rem;
 }

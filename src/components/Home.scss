@@ -142,13 +142,12 @@ h1 {
 .redbox {
     height: 60rem;
     width: 90%;
-    background: rgba(0,0,0, 0.105);
+    border: 5px solid white;
     position: absolute;
     z-index: -1;
     margin-top: 25rem;
     margin-right: 28rem;
     right: 5rem;
-    filter: drop-shadow(-1.2rem 1.2rem 0.6rem rgba(0,0,0,0.5));
     opacity: 0.9;
     text-align: end;
     justify-content: center;
