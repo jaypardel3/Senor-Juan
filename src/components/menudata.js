@@ -278,7 +278,7 @@ export const juicesandshakes = [
         price: '80'
     }, {
         id: 53,
-        name: 'PASSIONFRUIT JUICE(SEASONAL)	',
+        name: 'PASSIONFRUIT JUICE',
         price: '80'
     }, {
         id: 54,
@@ -290,7 +290,7 @@ export const juicesandshakes = [
         price: '90'
     }, {
         id: 56,
-        name: 'FRESH GUYABANO SHAKE/JUICE',
+        name: 'FRESH GUYABANO SHAKE',
         price: '90'
     }
 ]

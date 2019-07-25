@@ -2,11 +2,10 @@
     background: url(../img/menubg.png);
     background-size: cover;
     background-position: center;
-    height: 400vh;
+    height: 800vh;
     position: absolute;
     top: 0;
 }
-
 
 
 .beef3 {
@@ -38,10 +37,10 @@
 
 .board3 {
     margin-left: 20rem;
-    margin-right: 95rem;
+    margin-right: 110rem;
     right: 0;
     position: absolute;
-    top: 40rem;
+    top: 20rem;
     width: 35%;
     filter: drop-shadow(1rem 1rem 0.6rem black);
 }
@@ -50,8 +49,8 @@
     margin-left: auto;
     margin-right: auto;
     left: 10rem;
-    top: 10rem;
-    width: 14.1%;
+    top: 3rem;
+    width: 12%;
     position: absolute;
     filter: drop-shadow(1.8rem 1rem 0.6rem black);
 }
@@ -87,7 +86,55 @@
     height: 8rem;
 }
 
-.list {
+.picaMenu {
+    text-align: justify;
+    width: 100%;
+    margin-left: 3rem;
+    padding-top: 129rem;
+    padding-left: 8rem;
+}
+
+.meriendaMenu {
+    text-align: justify;
+    width: 100%;
+    margin-left: 3rem;
+    padding-left: 8rem;
+}
+
+.picapica {
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+
+hr {
+    border: 1.5px solid white;
+    width: 91%;
+    position: relative;
+    z-index: 2;
+}
+
+.item {
+
+    padding-left: 3rem;
+    width: 20%;
+    
+    &__header {
+        font-size: 2.5rem;
+        width: 73%;
+        color: #dc1934;
+        margin-top: 3rem;
+        
+    }
+
+    &__description {
+        font-size: 1.5rem;
+        width: 73%;
+        color: white;
+    }
+
+    &__price {
+        float: right;
+        color: #dc1934;
+    }
 }

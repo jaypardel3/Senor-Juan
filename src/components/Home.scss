@@ -4,8 +4,6 @@
     background-size: cover;
     background-position: center;
     height: 130vh;
-    position: absolute;
-    // filter: drop-shadow(0rem 2rem 2rem rgba(0,0,0,0.5));
 }
 
 
@@ -89,11 +87,11 @@ h1 {
 
 .story-img {
     background: linear-gradient(to bottom, rgba(0,0,0, 0.6) 0%, rgba(0, 0, 0, 0.5) 18%, rgba(0, 0, 0, 0.35) 35%, rgba(0, 0, 0, 0.15) 100%), url(../img/story2.png) fixed;
-    position: absolute;
-    top: 112rem;
+    margin-top: -16rem;
+    position: relative;
     height: 125vh;
     background-size: cover;
-    z-index: -2;
+    z-index: -5;
 }
 
 .story {
@@ -167,13 +165,12 @@ h1 {
 
 .menu-img {
     background: url(../img/menu2.png);
-    position: absolute;
-    top: 203rem;
+    margin-top: -33rem;
     height: 235vh;
     width: 100%;
     background-size: cover;
-    z-index: -1;
-    // filter: drop-shadow(0rem -2rem 2rem rgba(0,0,0,0.5));
+    position: relative;
+    z-index: -2;
     
 }
 
@@ -367,14 +364,6 @@ h1 {
     z-index: -3;
 }
 
-// .spoon {
-//     width: 35%;
-//     position: absolute;
-//     top: 172rem;
-//     z-index: -3;
-//     left: 18rem;
-//     filter: drop-shadow(.3rem .3rem .3rem black);
-// }
 
 .chili {
     width: 330%;
@@ -388,17 +377,16 @@ h1 {
 
 .testi-img {
     background: linear-gradient(to bottom, rgba(0,0,0, 1) 0%, rgba(0, 0, 0, 0.65) 18%, rgba(0, 0, 0, 0.4) 35%, rgba(0, 0, 0, 0.3) 100%), url(../img/testi.png) fixed;
-    position: absolute;
-    top: 400rem;
     height: 110vh;
+    margin-top: -30rem;
+    position: relative;
     background-size: cover;
     z-index: -5;
 }
 
 .contact-img {
     background: url(../img/contact2.png);
-    position: absolute;
-    top: 490rem;
+    margin-top: -20rem;
     height: 38vh;
     width: 100%;
     background-size: cover;
