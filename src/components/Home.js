@@ -21,38 +21,36 @@ import logowhite from '../img/logowhitee.png';
 const Home = () => {
     return (
         <div>
-            <Container fluid={true} className='home-img'>
+            <Container fluid={true} className='section--header'>
                 <Row>
-                    <Col>
-                        <img className='cloth' src={whitecloth} alt='cloth' />
-                        <img className='leaves' src={leaves} alt='leaves' />
-                        <img className='board' src={boardwithspices} alt='board' />
-                        <img className='logo' src={logored} alt='logo' />
-                        <img className='beef' src={sauced} alt='beef' />
+                    <Col className='header__objects'>
+                        <img className='header__objects--cloth' src={whitecloth} alt='cloth' />
+                        <img className='header__objects--leaves' src={leaves} alt='leaves' />
+                        <img className='header__objects--board' src={boardwithspices} alt='board' />
+                        <img className='header__objects--logo' src={logored} alt='logo' />
+                        <img className='header__objects--beef' src={sauced} alt='beef' />
                     </Col>
                 </Row>
-                <Container fluid={true} className="titletext">
-                    <h1>Bienvenido al señor juan</h1>
+                <Container fluid={true} className="header__textbox">
+                    <h1 className='heading--primary'>Bienvenido al señor juan</h1>
                     <ButtonToolbar>
-                        <Button variant="outline-danger" className="reserve">Reserve a Table</Button>
+                        <Button variant="outline-danger" className="btn--reserve">Reserve a Table</Button>
                     </ButtonToolbar>
-
                 </Container>
             </Container>
-            <Container fluid={true} className='story-img'>
-                <Row className='story'>
+            <Container fluid={true} className='section--story'>
+                <Row>
                     <Col xs={1}></Col>
-                    <Col xs={3}><img className='place' src={place} alt='place' /></Col>
+                    <Col xs={3}><img className='story__place' src={place} alt='place' /></Col>
                     <Col xs={7}>
-                        <div className='redbox'></div>
-                        <div className='storyproper'>
-                            <div className='storyheader'>Since 2016</div>
-                            <div className='divider'></div>
-                            <p className='storytext'>Senor Juan Bistro is a destination for the senses! This Bistro offers delectable Spanish-Filipino Cuisine such as pastas, tapas, chorizos which are the best in town and would surely satisfy your appetite. It is a cozy, inviting, and family friendly restaurant close to the heart of Dumaguete City promising to delight both gourmands and casual eaters alike.</p>
+                        <div className='story__box'>
+                            <div className='story__proper'>
+                                <div className='story__proper--heading'>Since 2016</div>
+                                <div className='story__proper--divider'></div>
+                                <p className='story__proper--description'>Senor Juan Bistro is a destination for the senses! This Bistro offers delectable Spanish-Filipino Cuisine such as pastas, tapas, chorizos which are the best in town and would surely satisfy your appetite. It is a cozy, inviting, and family friendly restaurant close to the heart of Dumaguete City promising to delight both gourmands and casual eaters alike.</p>
+                            </div>
                         </div>
-
                     </Col>
-
                 </Row>
             </Container>
             <Container fluid={true} className='menu-img'>
