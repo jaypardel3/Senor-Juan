@@ -5,53 +5,53 @@
         background: url(../img/home-mainsection2.png);
         background-size: cover;
         background-position: center;
+        z-index: 1;
 
         .header__objects {
 
             &--beef {
-                width: 7.77%;
+                width: 19%;
                 position: absolute;
-                top: 42rem;
-                left: 0;
+                top: 24rem;
+                left: -2rem;
                 filter: drop-shadow(1.8rem .9rem 0.6rem black);
             }
 
             &--board {
-                width: 35%;
-                margin-left: 20rem;
-                margin-right: 110rem;
+                width: 84%;
                 position: absolute;
-                top: 20rem;
-                right: 0;
+                top: 30rem;
+                left: 31rem;
                 filter: drop-shadow(1rem 1rem 0.6rem black);
             }
 
             &--cloth {
-                width: 14.08%;
+                width: 45%;
                 position: absolute;
-                left: 0;
-                top: 62rem;
+                left: -2rem;
+                top: 45rem;
+                filter: drop-shadow(2rem .9rem 0.6rem black);
+            }
+
+            &--cig {
+                width: 22%;
+                position: absolute;
+                left: 18rem;
+                top: 30rem;
                 filter: drop-shadow(2rem .9rem 0.6rem black);
             }
 
             &--leaves {
-                width: 7.094%;
-                margin-left: auto;
-                margin-right: 163rem;
+                width: 19%;
                 position: absolute;
-                right: 0;
-                top: 55rem;
+                left: 18rem;
+                top: 30rem;
                 filter: drop-shadow(2rem .9rem 0.6rem black);
             }
 
             &--logo {
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-                top: 15rem;
+                margin-top: 15rem;
                 width: 22.1%;
-                position: absolute;
                 filter: drop-shadow(1.8rem 1rem 0.6rem black);
             }
         }
@@ -59,37 +59,56 @@
         .header__textbox {
             position: relative;
             z-index: 3;
+            margin-right: 15rem;
+            left: 0;
 
             .heading--primary {
-                margin-top: 50rem;
-                color: #ece9e9;
-                font-size: 7rem;
+                color: #dc1934;
+                font-size: 6rem;
+                font-family: 'Great Vibes', cursive;
+                filter: drop-shadow(0.3rem 1.4rem 0.6rem black);
+
+                .contrast {
+                    color: #eae5d6;
+                }
+            }
+
+            .heading--secondary {
+                color: #eae5d6;
+                font-size: 10rem;
+                margin-top: -5rem;
                 filter: drop-shadow(0.3rem 1.4rem 0.6rem black);
             }
 
+            .heading--divider {
+                width: 40rem;
+                margin-top: -4rem;
+            }
+
             .btn--reserve {
-                color: #ece9e9;
-                border-color: #ece9e9;
+                color: #eae5d6;
+                border-color: #eae5d6;
                 z-index: 306;
                 display: block;
                 margin-right: auto;
                 margin-left: auto;
-                margin-top: 3rem;
-                font-size: 3rem;
+                margin-top: 5rem;
+                font-size: 2rem;
                 font-weight: 300;
-                width: 32rem;
-                height: 8rem;
+                width: 20rem;
+                height: 5rem;
             }
         }
     }
 
     &--story {
-        background: linear-gradient(to bottom, rgba(0,0,0, 0.6) 0%, rgba(0, 0, 0, 0.5) 18%, rgba(0, 0, 0, 0.35) 35%, rgba(0, 0, 0, 0.15) 100%), url(../img/story2.png) fixed;
+        background:  url(../img/menu3.png) fixed;
         margin-top: -16rem;
         position: relative;
-        height: 125vh;
+        height: 100vw;
         background-size: cover;
-        z-index: -5;
+        background-position: center;
+        z-index: -20;
 
         .story {
 
@@ -149,11 +168,11 @@
 
 
 .tomato {
-    width: 300%;
+    width: 1900%;
     z-index: 1000;
     position: absolute;
-    margin-right: 8rem;
-    right: 4rem;
+    margin-right: 0;            
+    right: 0;
     top: -5rem;
     filter: drop-shadow(1rem 1rem 0.6rem black);
 }
@@ -200,10 +219,9 @@
 
     &__header {
         font-size: 5rem;
-        color: white;
-        text-transform: uppercase;
+        color: #eae5d6;
         line-height: 6rem;
-        font-family: 'Julius Sans One', sans-serif;
+        font-family: 'Great Vibes', cursive;
         font-weight: 800;
     }
 
@@ -218,14 +236,14 @@
     
     &__text {
         font-size: 2rem;
-        color: white;
+        color: #eae5d6;
         font-weight: 300;
         margin-top: 7rem;
     }
 
     &__button {
-        color: #ece9e9;
-        border-color: #ece9e9;
+        color: #eae5d6;
+        border-color: #eae5d6;
         z-index: 306;
         display: block;
         margin-top: 3rem;

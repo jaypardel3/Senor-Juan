@@ -17,6 +17,30 @@ import orange1 from '../img/orangefood1.png';
 import orange2 from '../img/orangefood2.png';
 import chili from '../img/chilii.png';
 import logowhite from '../img/logowhitee.png';
+import cig from '../img/cig.png'
+import { ParallaxProvider, Parallax } from 'react-skrollr'
+import divider from '../img/divider.png';
+
+
+const data = {
+    "data-top-bottom": "transform: translateY(-15rem);",
+    "data-bottom-top": "transform: translateY(15rem);",
+};
+
+const data2 = {
+    "data-start": "transform: translateY(0rem);",
+    "data-100-end": "transform: translateY(80rem);",
+};
+
+const data3 = {
+    "data-start": "transform: translateY(0rem);",
+    "data-100-end": "transform: translateY(35rem);",
+};
+
+const data4 = {
+    "data-start": "transform: translateY(0rem);",
+    "data-100-end": "transform: translateY(20rem);",
+};
 
 const Home = () => {
     return (
@@ -24,19 +48,32 @@ const Home = () => {
             <Container fluid={true} className='section--header'>
                 <Row>
                     <Col className='header__objects'>
-                        <img className='header__objects--cloth' src={whitecloth} alt='cloth' />
+
                         <img className='header__objects--leaves' src={leaves} alt='leaves' />
-                        <img className='header__objects--board' src={boardwithspices} alt='board' />
-                        <img className='header__objects--logo' src={logored} alt='logo' />
-                        <img className='header__objects--beef' src={sauced} alt='beef' />
+                        <Parallax data={data2}>
+                            <span><img className='header__objects--board' src={boardwithspices} alt='board' /></span>
+                        </Parallax>
+                        <Parallax data={data3}>
+                            <img className='header__objects--cloth' src={whitecloth} alt='cloth' />
+                        </Parallax>
+                        <Parallax data={data4}>
+                            <img className='header__objects--beef' src={sauced} alt='beef' />
+                        </Parallax>
+
+                    </Col>
+                    <Col className="header__textbox">
+                        <Parallax data={data3}>
+                            <img className='header__objects--logo' src={logored} alt='logo' />
+                            <h1 className='heading--primary'>Bienvenido&nbsp;<span className='contrast'>al</span></h1>
+                            <div className='heading--secondary'>señor juan</div>
+                            <img className='heading--divider' src={divider} alt='divider' />
+                            <ButtonToolbar>
+                                <Button variant="outline-danger" className="btn--reserve">Reserve a Table</Button>
+                            </ButtonToolbar>
+                        </Parallax>
+
                     </Col>
                 </Row>
-                <Container fluid={true} className="header__textbox">
-                    <h1 className='heading--primary'>Bienvenido al señor juan</h1>
-                    <ButtonToolbar>
-                        <Button variant="outline-danger" className="btn--reserve">Reserve a Table</Button>
-                    </ButtonToolbar>
-                </Container>
             </Container>
             <Container fluid={true} className='section--story'>
                 <Row>
@@ -56,7 +93,10 @@ const Home = () => {
             <Container fluid={true} className='menu-img'>
                 <Row className='menu'>
                     <Col xs={11}></Col>
-                    <Col xs={1}><img className='tomato' src={tomato} alt='tomato' /></Col>
+                    <Parallax data={data} >
+                        <span><Col xs={1}><img className='tomato' src={tomato} alt='tomato' /></Col></span>
+                    </Parallax>
+
                 </Row>
                 <Row className='menu'>
                     <Col xs={4}>
