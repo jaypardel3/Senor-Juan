@@ -103,9 +103,9 @@
 
     &--story {
         background:  url(../img/menu3.png) fixed;
-        margin-top: -16rem;
+        margin-top: -13rem;
         position: relative;
-        height: 100vw;
+        height: 115vh;
         background-size: cover;
         background-position: center;
         z-index: -20;
@@ -179,12 +179,11 @@
 
 .menu-img {
     background: url(../img/menu2.png);
-    margin-top: -33rem;
-    height: 235vh;
-    width: 100%;
+    margin-top: -30rem;
+    height: 270vh;
     background-size: cover;
     position: relative;
-    z-index: -2;
+    z-index: 1;
     
 }
 
@@ -198,29 +197,32 @@
 }
 
 .blackbox {
-    height: 55rem;
+    height: 60rem;
     width: 100%;
     background: rgba(40,40,40, .7);
     position: absolute;
-    top: 52rem;
-    z-index: -1;
+    top: 45rem;
+    z-index: -10;
     opacity: 0.9;
 }
 
 .menu {
 
+    position: relative;
+    z-index: 3000;
+
     &__proper {
         width: 40%;
         position: absolute;
-        margin-top: 49rem;
+        margin-top: 42rem;
         text-align: left;
         left: 44rem;
     }
 
     &__header {
-        font-size: 5rem;
+        font-size: 7rem;
         color: #eae5d6;
-        line-height: 6rem;
+        line-height: 7.5rem;
         font-family: 'Great Vibes', cursive;
         font-weight: 800;
     }
@@ -235,7 +237,7 @@
     }
     
     &__text {
-        font-size: 2rem;
+        font-size: 2.3rem;
         color: #eae5d6;
         font-weight: 300;
         margin-top: 7rem;
@@ -244,7 +246,7 @@
     &__button {
         color: #eae5d6;
         border-color: #eae5d6;
-        z-index: 306;
+        z-index: 10000;
         display: block;
         margin-top: 3rem;
         font-size: 2rem;
@@ -270,23 +272,14 @@
     filter: drop-shadow(-1.5rem -1.5rem 0.6rem rgba(0,0,0, .7));
 }
 
-.backbox {
-    height: 41rem;
-    width: 100%;
-    position: absolute;
-    top: 54rem;
-    right: -40rem;
-    z-index: -4;
-    background: #dc1934;
-    filter: drop-shadow(1.5rem 1.5rem 0.6rem rgba(0,0,0, .7));
-}
+
 .blackbox2 {
-    height: 55rem;
+    height: 60rem;
     width: 100%;
     background: rgba(0,0,0, .4);
     position: absolute;
     right: 1rem;
-    top: 125rem;
+    top: 140rem;
     z-index: -1;
     opacity: 0.9;
     
@@ -305,9 +298,8 @@
     &__header {
         font-size: 4.6rem;
         color: white;
-        text-transform: uppercase;
         line-height: 6rem;
-        font-family: 'Julius Sans One', sans-serif;
+        font-family: 'Great Vibes', cursive;
         font-weight: 800;
     }
 
@@ -339,41 +331,7 @@
         margin-right: auto;
     }
 }
-.peas2 {
-    width: 9.5%;
-    position: absolute;
-    top: 174rem;
-    z-index: -3;
-    left: 15rem;
-    filter: drop-shadow(.3rem .3rem .3rem black);
-}
 
-.knife {
-    width: 45%;
-    position: absolute;
-    top: 100rem;
-    z-index: -2;
-    filter: drop-shadow(.3rem .3rem .3rem black);
-    right: -30rem;
-}
-
-.orange1 {
-    width: 20%;
-    position: absolute;
-    top: 155rem;
-    right: -10rem;
-    filter: drop-shadow(1rem 1rem 0.6rem black);
-    z-index: -2;
-}
-
-.orange2 {
-    width: 8%;
-    position: absolute;
-    top: 157rem;
-    right: -18rem;
-    filter: drop-shadow(1rem 1rem 0.6rem black);
-    z-index: -3;
-}
 
 
 .chili {
@@ -387,8 +345,8 @@
 }
 
 .testi-img {
-    background: linear-gradient(to bottom, rgba(0,0,0, 1) 0%, rgba(0, 0, 0, 0.65) 18%, rgba(0, 0, 0, 0.4) 35%, rgba(0, 0, 0, 0.3) 100%), url(../img/testi.png) fixed;
-    height: 110vh;
+    background:  url(../img/testi2.png) fixed;
+    height: 210vh;
     margin-top: -30rem;
     position: relative;
     background-size: cover;

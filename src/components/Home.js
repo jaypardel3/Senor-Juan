@@ -42,6 +42,11 @@ const data4 = {
     "data-100-end": "transform: translateY(20rem);",
 };
 
+const data5 = {
+    "data-start": "transform: translateY(0rem);",
+    "data-100-end": "transform: translateY(200rem);",
+};
+
 const Home = () => {
     return (
         <div>
@@ -62,7 +67,7 @@ const Home = () => {
 
                     </Col>
                     <Col className="header__textbox">
-                        <Parallax data={data3}>
+                        <Parallax data={data5}>
                             <img className='header__objects--logo' src={logored} alt='logo' />
                             <h1 className='heading--primary'>Bienvenido&nbsp;<span className='contrast'>al</span></h1>
                             <div className='heading--secondary'>señor juan</div>
@@ -77,7 +82,7 @@ const Home = () => {
             </Container>
             <Container fluid={true} className='section--story'>
                 <Row>
-                    <Col xs={1}></Col>
+                    {/* <Col xs={1}></Col>
                     <Col xs={3}><img className='story__place' src={place} alt='place' /></Col>
                     <Col xs={7}>
                         <div className='story__box'>
@@ -87,26 +92,26 @@ const Home = () => {
                                 <p className='story__proper--description'>Senor Juan Bistro is a destination for the senses! This Bistro offers delectable Spanish-Filipino Cuisine such as pastas, tapas, chorizos which are the best in town and would surely satisfy your appetite. It is a cozy, inviting, and family friendly restaurant close to the heart of Dumaguete City promising to delight both gourmands and casual eaters alike.</p>
                             </div>
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
             <Container fluid={true} className='menu-img'>
                 <Row className='menu'>
                     <Col xs={11}></Col>
-                    <Parallax data={data} >
+                    {/* <Parallax data={data} >
                         <span><Col xs={1}><img className='tomato' src={tomato} alt='tomato' /></Col></span>
-                    </Parallax>
+                    </Parallax> */}
 
                 </Row>
                 <Row className='menu'>
                     <Col xs={4}>
-                        <img className='beef2' src={beef2} alt='beef' />
-                        <img className='squid' src={squid} alt='squid' />
+                        {/* <img className='beef2' src={beef2} alt='beef' />
+                        <img className='squid' src={squid} alt='squid' /> */}
                         <div className='backbox'></div>
                     </Col>
                     <Col xs={8}>
                         <div className='blackbox'></div>
-                        <img className='peas' src={peas} alt='peas' />
+                        {/* <img className='peas' src={peas} alt='peas' /> */}
                         <div className='menu__proper'>
                             <div className='menu__header'>
                                 <div>Senor Juan</div>
@@ -123,10 +128,10 @@ const Home = () => {
                 <Row className='menu'>
                     <Col xs={8}>
                         <div className='blackbox2'></div>
-                        <img className='knife' src={knife} alt='knife' />
+                        {/* <img className='knife' src={knife} alt='knife' />
                         <img className='peas2' src={peas2} alt='peas2' />
                         <img className='orange1' src={orange1} alt='orange1' />
-                        <img className='orange2' src={orange2} alt='orange2' />
+                        <img className='orange2' src={orange2} alt='orange2' /> */}
                         <div className='reserve__proper'>
                             <div className='reserve__header'>
                                 <div>Looking for a great</div>
@@ -142,7 +147,7 @@ const Home = () => {
                     <Col xs={4}></Col>
                 </Row>
                 <Row className='menu'>
-                    <Col xs={1}><img className='chili' src={chili} alt='chili' /></Col>
+                    {/* <Col xs={1}><img className='chili' src={chili} alt='chili' /></Col> */}
                     <Col xs={11}></Col>
                 </Row>
             </Container>
